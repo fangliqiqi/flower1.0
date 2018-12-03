@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>鲜花库</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="鲜花库" stroke="#666666" stroke-width="2">
+            <path d="M5.07272727,15.4 C4.80606061,11 5.27272727,8.4 6.47272727,7.6 C7.67272727,6.8 10.2060606,7.4 14.0727273,9.4 C16.6060606,4.73333333 18.6060606,2.4 20.0727273,2.4 C21.5393939,2.4 23.4727273,4.73333333 25.8727273,9.4 C30.2727273,7.33333333 33.0060606,6.73333333 34.0727273,7.6 C35.1393939,8.46666667 35.6727273,11.0666667 35.6727273,15.4" id="Path-4"></path>
+            <path d="M5.6,19 C8,26.2 12.6666667,29.8 19.6,29.8 C26.5333333,29.8 31.6,26.2 34.8,19" id="Path-7"></path>
+            <path d="M25.2,31.2 L33.8,37.2" id="Path-8-Copy" transform="translate(29.500000, 34.200000) scale(-1, 1) translate(-29.500000, -34.200000) "></path>
+            <path d="M6.6,31.2 L15.2,37.2" id="Path-8"></path>
+            <g id="Group" transform="translate(15.000000, 14.000000)">
+                <path d="M1,0 L1,1" id="Line"></path>
+                <path d="M10,0 L10,1" id="Line-Copy"></path>
+            </g>
+            <path d="M20,22 L21,22" id="Line-2"></path>
+            <path d="M20,30 L20,37.0710678" id="Line-3"></path>
+        </g>
+    </g>
+</svg>
