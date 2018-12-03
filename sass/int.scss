@@ -1,0 +1,292 @@
+@charset 'UTF-8';
+$rem:75;
+
+// 状态栏
+//.state{
+//  width:100%;
+//  height:40/$rem*1rem;
+//  text-align:center;
+//  line-height:40/$rem*1rem;
+//  background:lightcyan;
+//  position:fixed;
+//  top:0px;
+//  z-index:999;
+//  font-size:24/$rem*1rem;
+//}
+// <!-- 导航栏 -->
+.content{
+    padding:0px 30/$rem*1rem;
+}
+.nav{
+    position:fixed;
+    top:0;
+    z-index:999;
+    width:100%;
+    height:88/$rem*1rem;
+    line-height:88/$rem*1rem;
+    font-size:35/$rem*1rem;
+    border-bottom:1px solid #eee;
+    background:#fff;
+}
+.nav-a{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    >i{
+        display:inline-block;
+        width:36/$rem*1rem;
+        height:36/$rem*1rem;
+    }
+}
+//头部
+.head{
+    width:100%;
+//  height:110*2/$rem*1rem;
+    margin-top:128/$rem*1rem;
+    padding: 0px 30/$rem*1rem;
+    >h2{
+        font-size:44/$rem*1rem;
+        line-height: 120/$rem*1rem;
+    }
+    >h6{
+        font-size:30/$rem*1rem;
+        color:#576b95;
+        line-height: 40/$rem*1rem;
+        >span{
+            margin-left:10/$rem*1rem;
+            color:rgba(0,0,0,0.3);
+        }
+    }
+}
+.head_img{
+    width:299*2/$rem*1rem;
+    height:154*2/$rem*1rem;
+    margin:90/$rem*1rem auto 0;
+}
+.head_p{
+    width:100%;
+    text-align: center;
+    font-size:28/$rem*1rem;
+    padding-top:70/$rem*1rem;
+    padding-bottom: 100/$rem*1rem;
+    letter-spacing:4/$rem*1rem;
+    >p{
+       line-height: 56/$rem*1rem; 
+    }
+}
+.p_title1{
+    margin-top:55/$rem*1rem;
+}
+/*<!--音乐-->*/
+.music{
+    width:300*2/$rem*1rem;
+    height:68*2/$rem*1rem;
+    border:2/$rem*1rem solid #ddd;
+    margin:50/$rem*1rem auto;
+    font-size:28/$rem*1rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mu_img{
+    width:68*2/$rem*1rem;
+    height:100%;
+    display: inline-block;
+    background: url(../images/2012090725725527_497_o.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    line-height:90*2/$rem*1rem;
+    >i{
+       display:inline-block ;
+       width:60/$rem*1rem;
+       height:60/$rem*1rem;
+       background:url(../images/data-image-png;base….png) no-repeat;
+       background-size: cover;
+       background-position: top; 
+    }
+}
+.mu_right{
+    width:230*2/$rem*1rem;
+    text-align: center;
+    line-height:50/$rem*1rem;
+    letter-spacing: 4/$rem*1rem;
+}
+
+/*详情介绍*/
+.details{
+    width:100%;
+    height:auto;
+    font-size:28/$rem*1rem;
+}
+.det_box1{
+    width:225*2/$rem*1rem;
+    height:316*2/$rem*1rem;
+    margin:0px auto;
+}
+.det_img{
+    width:100%;
+    height:100%;
+    border-left:10/$rem*1rem  solid #c5e3d3;
+    border-bottom: 10/$rem*1rem  solid #c5e3d3;;
+}
+.det_box2{
+   height:29*2/$rem*1rem;
+   margin:20/$rem*1rem auto 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.det_title1{
+    display: inline-block;
+    width:30/$rem*1rem;
+    height:30/$rem*1rem;
+    background: rgba(194, 233, 255, 0.5);
+    border-radius:50%;
+}
+.det_title2{
+    display: inline-block;
+    width:20/$rem*1rem;
+    height:20/$rem*1rem;
+    background: rgba(255, 211, 196, 0.5);
+    border-radius: 50%;
+    margin-left:-10/$rem*1rem;
+}
+.det_p1{
+    letter-spacing: 4/$rem*1rem;
+    padding: 0px 20/$rem*1rem;
+}
+.det_title3{
+    width:20/$rem*1rem;
+    height:20/$rem*1rem;
+    background: rgba(255, 211, 196, 0.5);
+    border-radius: 50%;
+     margin-right:-10/$rem*1rem;
+}
+.det_title4{
+   display: inline-block;
+    width:30/$rem*1rem;
+    height:30/$rem*1rem;
+    background: rgba(194, 233, 255, 0.5);
+    border-radius:50%; 
+}
+.det_box3{
+    text-align: center;
+    letter-spacing: 4/$rem*1rem;
+    line-height:56/$rem*1rem ;
+    padding:80/$rem*1rem 0 70/$rem*1rem 0;   
+}
+.det_box4{
+    text-align: center;
+    letter-spacing: 4/$rem*1rem;
+    line-height:50/$rem*1rem ;
+//  padding-top:60/$rem*1rem;
+    padding-bottom: 100/$rem*1rem;
+}
+//广告
+.ad{
+    width:343*2/$rem*1rem;
+    height:426*2/$rem*1rem; 
+    margin:0px auto;
+    background: #efefef;
+    border-left:4/$rem*1rem dashed #a0a0a0;
+    font-size:28/$rem*1rem;
+    text-align: center;
+    position: relative;
+    line-height: 56/$rem*1rem;
+    padding-top: 20/$rem*1rem;
+    margin-bottom: 150/$rem*1rem;
+}
+.ad_p2{
+    margin-top:60/$rem*1rem;
+}
+.ad:after{
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right:0;
+    width:0;
+    height:0;
+    border:20/$rem*1rem solid transparent;
+    border-right:20/$rem*1rem solid #fff;
+    border-bottom:20/$rem*1rem solid #fff;
+}
+//作者信息
+.peo{
+    width:100%;
+    font-size: 28/$rem*1rem;
+    text-align: center;
+}
+.peo_box1{
+    width:343*2/$rem*1rem;
+    height:198*2/$rem*1rem;
+    line-height: 198*2/$rem*1rem;
+    margin:0px auto;
+    padding-top: 10/$rem*1rem;
+    border-top:2/$rem*1rem dashed #33a032;
+    border-bottom:2/$rem*1rem dashed #33a032;
+    >p{
+        display: inline-block;
+        line-height: 56/$rem*1rem;
+        
+    }
+}
+.per_img{
+    width:90/$rem*1rem;
+    height:60/$rem*1rem;
+    padding:0px 15/$rem*1rem;
+    margin-left:55/$rem*1rem;
+    margin-top:-35/$rem*1rem;
+    background-color: #fff; 
+    >i{
+        display: block;
+        width:100%;
+        height:100%;
+        background: url(../images/logo3.png) no-repeat top;
+        background-size: cover;
+    }
+}
+.peo_box2{
+    width:100%;
+    height:115*2/$rem*1rem;
+    font-size:24/$rem*1rem;
+    padding-top: 60/$rem*1rem;
+    >p{
+       line-height: 48/$rem*1rem;
+       color:#888888;
+       >i{
+           padding: 0px  10/$rem*1rem;
+       }
+    }
+    >P:nth-child(2){
+        color:#a0a0a0;
+    }
+    
+}
+//尾部
+.footer{
+    width: 100%;
+    padding: 0px 30/$rem*1rem;
+    >p{
+        font-size:24/$rem*1rem;
+        line-height: 60/$rem*1rem;
+        color: #888888;
+        padding-right:20/$rem*1rem;
+        text-align: right;
+    }
+}
+.foot_img{
+    width:100%;
+    height:144*2/$rem*1rem;
+}
+.box1{
+    font-size: 30/$rem*1rem;
+    padding-top: 30/$rem*1rem;
+    padding-bottom: 80/$rem*1rem;
+    
+    >a{
+        color:#576b95;
+    }   
+}
