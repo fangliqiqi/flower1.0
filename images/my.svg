@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>个人</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="个人" stroke="#666666" stroke-width="2">
+            <path d="M26.5946521,21.150982 C29.0339634,19.2282634 30.6,16.2470154 30.6,12.9 C30.6,7.10101013 25.8989899,2.4 20.1,2.4 C14.3010101,2.4 9.6,7.10101013 9.6,12.9 C9.6,16.3024314 11.2183232,19.3268832 13.7272248,21.2456108" id="Oval-2"></path>
+            <path d="M32.8,37.8071338 L35.6024576,37.8071338 L35.6024576,35 C32.3849859,27.9333333 27.1512429,24.4 19.9012288,24.4 C12.6512147,24.4 7.41747174,27.9333333 4.2,35 L4.2,37.8071338 L28.2,37.8071338 L32.8,37.8071338 Z" id="Path-10"></path>
+        </g>
+    </g>
+</svg>
