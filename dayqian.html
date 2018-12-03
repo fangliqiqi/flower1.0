@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>日签</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+	<link rel="stylesheet" href="css/day.css" />
+	<link rel="stylesheet" href="css/base.css">
+		<script>
+	        var pixelRatio = 1 / window.devicePixelRatio; //还原设备的真实分辨率；
+	        //devicePixelRatio设备的像素比；
+	        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelRatio + ',minimum-scale=' + pixelRatio + ',maximum-scale=' + pixelRatio + '" />');
+	        var html = document.getElementsByTagName('html')[0];
+	        var pageWidth = html.getBoundingClientRect().width;
+	        html.style.fontSize = pageWidth / 10 + "px";
+	   </script>
+	   
+</head>
+<body>
+	<!-- 状态栏-->
+	<!--<div class="state">0:00</div>-->
+	<!-- 导航栏 -->
+	<div class="nav content">
+		<div class="nav-a ">
+			<i><a href="find.html"><img src="images/zuojiantou.png" alt=""></a></i>
+			<p>花点时间</p>
+			<i></i>	
+		</div>
+	</div>
+	<div class="img">
+		<img src="images/20181123144202.jpg" alt="" />
+	</div>
+	<div class="p">< 长安图片可保存 ></div>
+	
+	<!-- 底部标签栏 -->
+	<div class="foot_nav">
+		<ul>
+			<li><a href="index.html">
+				<div><img src="images/sy2.svg" alt=""></div>
+				<p >首页</p>
+				</a>
+			</li>
+			<li><a href="">
+				<div><img src="images/fx2.svg" alt=""></div>
+				<p>发现</p>
+				</a>
+			</li>
+			<li><a href="curing.html">
+				<div><img src="images/yh.svg" alt=""></div>
+				<p>养护</p>
+				</a>
+			</li>
+			<li><a href="my.html">
+				<div><img src="images/my.svg" alt=""></div>
+				<p>我的</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!--js当前时间-->
+	<!--<script>	
+		var Ostate = document.getElementsByClassName('state')[0];
+			function getTime(){
+				var Oday = new Date();
+				var oh = Oday.getHours();
+				var om = Oday.getMinutes();
+				if(oh>12){
+					if(om<10){
+					Ostate.innerHTML='下午'+(oh-12)+':'+'0'+om;
+					}else{
+						Ostate.innerHTML='下午'+(oh-12)+':'+om;
+					}	
+				}else if(oh<=12){
+					if(om<10){
+						Ostate.innerHTML='上午'+oh+':'+'0'+om;
+					}else{
+						Ostate.innerHTML='上午'+oh+':'+om;
+						}	
+					}
+				}
+			getTime();
+		setInterval(getTime,1000)
+	</script>		-->
+</body>
+</html>

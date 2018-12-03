@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>花点时间首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="dist/css/swiper.min.css">
+	<script>
+        var pixelRatio = 1 / window.devicePixelRatio; //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+
+        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelRatio + ',minimum-scale=' + pixelRatio + ',maximum-scale=' + pixelRatio + '" />');
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 10 + "px";
+   </script>
+</head>
+<body>
+	<!-- 状态栏-->
+	<!--<div class="state"></div>-->
+	<!-- 导航栏 -->
+	<div class="nav">花点时间</div>
+	<!-- 头部信息栏  轮播图 -->
+	<div class="head">
+		<div class="head_font content">
+			<p>感恩节专场</p>
+		</div>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper" >
+		        <div class="swiper-slide">
+		       	 <a href="goods.html">
+		        	<img src="images/kangnaixin.jpg" alt="" />
+					<h3 class='title2'>感恩上心 | 9.9元小陪伴</h3>
+					<p class='title3'>色彩丰富康乃馨搭配纯洁美好满天星，9.9元，包邮到家</p>	
+				</a>
+		        </div>
+		        <div class="swiper-slide">
+		        <a href="">
+		        	<img src="http://img.reflower.com.cn/8be2230ba7b77e85314d938351ebc3f6d7f90a4e?imageView2/2/w/750/h/750/q/100" to="https://item.reflower.com.cn/detail/0J_Qn9Cf0JfQmtCY" class="topage" gid="undefined">
+					<h3 class='title2'>热情活泼 | 红色洋牡丹</h3>
+					<p class='title3'>39元/30枝，新鲜的红色洋牡丹，为你带去夏天般的热情</p>	
+				</a>
+		        </div>
+		        <div class="swiper-slide">
+		        <a href="">
+		        	<img src="images/VCG41569925867.jpg" alt="" />
+					<h3 class='title2'>感恩节专场 | 比心心</h3>
+					<p class='title3'>79元起，你的心意要及时送达，感恩节当天可收花</p>	
+				</a>
+		        </div>
+		        <div class="swiper-slide">
+		        <a href="">
+					<img src="http://img.reflower.com.cn/036499fe639bf6c9cda70cfda6164fbda629f347?imageView2/2/w/750/h/750/q/100" to="https://h5.youzan.com/v2/feature/PkaOrLSJE4" class="topage" gid="undefined">
+					<h3 class='title2'>全新上线 | 网红植物</h3>
+					<p class='title3'>18款植物低至18元，更多种类任你选</p>
+				</a>
+		        </div>
+		        <div class="swiper-slide">
+		        <a href="">
+					<img src="images/VCG211178320773.jpg" alt="" />
+					<h3 class='title2'>39元起 | 花材市场</h3>
+					<p class='title3'>更多新品入驻花材超市，新用户还送花瓶</p>
+				</a>
+		        </div>
+		    </div>
+			  <div class="swiper-pagination"></div>
+		</div> 
+		<script src="dist/js/swiper.min.js"></script>
+	</div>
+	<script> 
+  		var mySwiper = new Swiper ('.swiper-container', {
+    // 如果需要分页器
+   		 pagination: {
+      	el: '.swiper-pagination',
+      	type: 'fraction',       //出现数字
+    },
+			// slidesPerView: 1.06,
+			 slidesPerView :'auto'
+     }) 
+    </script>
+	<!-- 第二部分   -->
+	<div class="content box2">
+		<div class="center_a">
+			<span>
+				<a href=""><img src="http://img.reflower.com.cn/ef664a4329035b373d466c1fa639d20a1475a356?imageView2/2/w/750/h/750/q/100" to="http:/		/m.reflower.com.cn/page36.html?page=page36" gid="undefined" class="topage">
+				</a>
+			</span>
+			<span>
+				<a href=""><img src="http://img.reflower.com.cn/6877615e6df6867acdb2fd95d4d83418ff141fdf?imageView2/2/w/750/h/750/q/100" to="http:/		/m.reflower.com.cn/page34.html?page=page34" gid="undefined" class="topage">
+				</a>
+			</span>
+			
+		</div>
+	</div>
+	<!-- 第三部分 限时特惠 -->
+	<div class="preferential">
+		<div class="head_font content">
+			<p>限时特惠</p>
+		</div>
+		<div class="time">
+			<ul class='time_ul'>
+				<li class='time_li'>
+				<a href="">
+					<span class='icon'></span>
+					<div class="time_img">
+						<img src="images/VCG41569925867.jpg">
+					</div>
+					<p class="time_p1">感恩上新 | 小陪伴花束 </p>
+					<p class="time_p2">9.9元|束</p>
+				</a>
+				</li>
+				<li class="time_li">
+				<a href="">
+					<span class='icon'></span>
+					<div class="time_img">
+						<img src="http://img.reflower.com.cn/768707a974d055965f042251be0ac83391778ffd?imageView2/2/w/750/h/750/q/100">
+					</div>
+					<p class="time_p1">感恩上新 | 小陪伴花束  </p>
+					<p class="time_p2">99元|4束</p>
+				</a>
+				</li>
+				<li class='time_li'>
+				<a href="">
+					<span class='icon'></span>
+					<div class="time_img">
+						<img src="http://img.reflower.com.cn/d2df78dd752d8c1cc9f89d694702add7e64bfe59?imageView2/2/w/750/h/750/q/100">
+					</div>
+					<p class="time_p1">可优惠加购陈数同款 </p>
+					<p class="time_p2">169元|4束</p>
+				</a>
+				</li>
+				<li class='time_li'>
+				<a href="">
+					<span class='icon'><img src="https://misc.reflower.com.cn/images/cms/sale.png"></span>
+					<div class="time_img">
+						<img src="http://img.reflower.com.cn/1057098372045a7f4ef7a59a4eedbbb1b77264ee?imageView2/2/w/750/h/750/q/100">>
+					</div>
+					<p class="time_p1">可优惠加购陈数同款</p>
+					<p class="time_p2">139元|2束</p>
+				</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="line"><span></span></div>
+	<!-- 鲜花订阅 -->
+	<div class="subscribe">
+		<div class="head_font content content_b">
+			<p class='con_p'>鲜花订阅</p>
+			<a href="" '>全部 ></a>
+		</div>
+		<!-- Nature 自然系列 -->
+		<div class="sub_head content ">
+			<h3 class="sub_title1">Nature 自然系列</h3>
+			<h3 class="sub_title2">每周一花的小幸福，新用户送花瓶</h3>
+		</div>
+		<div class="nature content">
+			<div class="na_a">
+			<a href="">
+				<span  class='icon'>
+					<img src="https://misc.reflower.com.cn/images/cms/hot.png">
+				</span>
+				<div class="naa_img">
+					<img class="lazy" src="http://img.reflower.com.cn/483062cc64dc2906846f5d8ebb4a8b3d520b3e5b?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/483062cc64dc2906846f5d8ebb4a8b3d520b3e5b?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>Nature自然系列 | 混合版</h3>
+				<p class="naa_p1">新手必备款，新用户送花瓶</p>
+				<p class='naa_p12'>99元/4束</p>
+			</a>
+			</div>
+			<div class="na_b">
+			<a href="">
+				<span class="icon">
+					<img src="https://misc.reflower.com.cn/images/cms/icon8.png" class="xicon">
+				</span>
+				<div class="naa_img">
+					<img class="lazy" src="http://img.reflower.com.cn/d41c798d253f3f93efef03c8d68007ac65e40dab?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/d41c798d253f3f93efef03c8d68007ac65e40dab?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>自然系列 | Pro版</h3>
+				<p class="naa_p1">花材丰富，新用户送花瓶</p>
+				<p class='naa_p12'>169元/4束</p>
+			</a>
+			</div>
+			<div class="na_b">
+			<a href="">
+				<span class="icon"></span>
+				<div class="naa_img">
+					<img class="lazy" src="http://img.reflower.com.cn/1c0b880416ed60dc48f37c721df3158ad05d3493?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/1c0b880416ed60dc48f37c721df3158ad05d3493?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>自然系列 | More版</h3>
+				<p class="naa_p1">每月8束，每周同时收2束</p>
+				<p class='naa_p12'>159元/8束</p>
+			</a>
+			</div>
+			<div class="na_b na_c">
+			<a href="">
+				<span class="icon"></span>
+				<div class="naa_img">
+					<img class="lazy" src="http://img.reflower.com.cn/636d9e853802a8cae3761bde0d047476c71612e8?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/636d9e853802a8cae3761bde0d047476c71612e8?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>自然系列 | Mix版</h3>
+				<p class="naa_p1">单品&amp;混合交替发花</p>
+				<p class='naa_p12'>99元/4束</p>
+			</a>
+			</div>
+			<div class="na_b na_c">
+			<a href="">
+				<span class="icon"></span>
+				<div class="naa_img">
+					<img class="lazy" src="http://img.reflower.com.cn/73ebbd38efbd72195167483cafcb1c43c55871a5?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/73ebbd38efbd72195167483cafcb1c43c55871a5?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>自然系列 | 双拼版</h3>
+				<p class="naa_p1">单品&amp;混合交替发花</p>
+				<p class='naa_p12'>139元/4束</p>
+			</a>
+			</div>
+		</div>
+		<!-- Story 主题系列 -->
+		<div class="sub_head content ">
+			<h3 class="sub_title1">Story 主题系列</h3>
+			<h3 class="sub_title2">有故事的主题花，含进口花材</h3>
+		</div>
+		<div class="nature content">
+			<div class="na_a">
+			<a href="">
+				<span  class='icon'></span>
+				<div class="naa_img">
+					<img class="lazy" src="http://img.reflower.com.cn/03c166c3e103f22c184efc8f6e79f58d28eab64e?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/03c166c3e103f22c184efc8f6e79f58d28eab64e?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>本周主题花  |「元气糖」</h3>
+				<p class="naa_p1">愿你，这位伟大的元气女主角，永远光芒四射，元气爆棚</p>
+				<p class='naa_p12'>99元/束</p>
+			</a>
+			</div>
+			<div class="na_b">
+			<a href="">
+				<span class="icon"></span>
+				<div class="naa_img">
+					<img class="lazy" src="http://img.reflower.com.cn/6dcc9fe837ddaa41cc7b79b848867438e14a5518?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/6dcc9fe837ddaa41cc7b79b848867438e14a5518?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>Story主题系列 | DIY版</h3>
+				<p class="naa_p1">手作花束，超大花量</p>
+				<p class='naa_p12'>388元/4束</p>
+			</a>
+			</div>
+			<div class="na_b">
+			<a href="">
+				<span class="icon"></span>
+				<div class="naa_img">
+					<img class="lazy" src="http://img.reflower.com.cn/1c0b880416ed60dc48f37c721df3158ad05d3493?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/1c0b880416ed60dc48f37c721df3158ad05d3493?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>自然系列 | More版</h3>
+				<p class="naa_p1">每月8束，每周同时收2束</p>
+				<p class='naa_p12'>159元/8束</p>
+			</a>
+			</div>
+		</div>
+		<!-- 小巧精致桌花系列 -->
+		<div class="sub_head content ">
+			<h3 class="sub_title1">小巧精致桌花系列</h3>
+			<h3 class="sub_title2">古灵精怪小时髦 * 大异其趣</h3>
+		</div>
+		<div class="nature content">
+			<div class="na_b na_d">
+			<a href="">
+				<span class="icon"></span>
+				<div class="naa_img">
+					<img class="lazy" src="https://img.reflower.com.cn/1a7c50ddf940fd77da784aa8bba3e3b26fb77728?imageView2/2/w/750/h/750/q/100" data-original="https://img.reflower.com.cn/1a7c50ddf940fd77da784aa8bba3e3b26fb77728?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>Smart 系列 | Pro版</h3>
+				<p class="naa_p1">小巧精致，一周2束</p>
+				<p class='naa_p12'>69元/周/2束</p>
+			</a>
+			</div>
+			<div class="na_b na_d">
+			<a href="">
+				<span class="icon"></span>
+				<div class="naa_img">
+					<img class="lazy" src="http://img.reflower.com.cn/7a7a6d8df21e1d7654fa8fabdc6d96f92a9fca82?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/7a7a6d8df21e1d7654fa8fabdc6d96f92a9fca82?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>暖心桌花 |「小花杯」</h3>
+				<p class="naa_p1">自带花泥，无需插瓶换水</p>
+				<p class='naa_p12'>39元/束</p>
+			</a>
+			</div>
+		</div>
+		<!-- 海外风情 -->
+		<div class="sub_head content ">
+			<h3 class="sub_title1">海外风情</h3>
+			<h3 class="sub_title2">精选全球进口花束，低成本享用进口花材</h3>
+		</div>
+		<div class="nature content">
+			<div class="na_b na_d">
+			<a href="">
+				<span class="icon"></span>
+				<div class="naa_img">
+					<img class="lazy" src="http://img.reflower.com.cn/97c419de498c422140884558c8ab6810cc9f6aa3?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/97c419de498c422140884558c8ab6810cc9f6aa3?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>空气感插花，轻松打理</h3>
+				<p class='naa_p12'>99元/2束</p>
+			</a>
+			</div>
+			<div class="na_b na_d">
+			<a href="">
+				<span class="icon"><img src="https://misc.reflower.com.cn/images/cms/icon6.png"></span>
+				<div class="naa_img">
+					<img class="lazy" src="http://img.reflower.com.cn/1057098372045a7f4ef7a59a4eedbbb1b77264ee?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/1057098372045a7f4ef7a59a4eedbbb1b77264ee?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</div>
+				<h3 class='naa_mame'>WOW全球海淘系列</h3>
+				<p class="naa_p1">低价享进口优质花材</p>
+				<p class='naa_p12'>139元/2束</p>
+			</a>
+			</div>
+		</div>
+	</div>
+	<div class="line"><span></span></div>
+	<!-- 特色服务 -->
+	<div class="service">
+		<div class="head_font content content_c">
+			<p>特色服务</p>
+		</div>
+		<div class="content sev_box">
+			<span>
+				<a href=""><img class="lazy" src="http://img.reflower.com.cn/59609d5f16e4c52f94bf929294cd23e7ca41a3cc?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/59609d5f16e4c52f94bf929294cd23e7ca41a3cc?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</a>
+				</span>
+			<span>
+				<a href=""><img class="lazy" src="http://img.reflower.com.cn/16f77134b74bc925193e8111d56c066e77e6f1bb?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/16f77134b74bc925193e8111d56c066e77e6f1bb?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</a>
+			</span>
+		</div>
+	</div>
+	<div class="line"><span></span></div>
+	<!-- 花边小物 -->
+	<div class="service">
+		<div class="head_font content content_c">
+			<p>花边小物</p>
+		</div>
+		<div class="content sev_box">
+			<span>
+				<a href=""><img class="lazy" src="http://img.reflower.com.cn/24929974480d0033833e7e47a820c3df76d6c8bf?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/24929974480d0033833e7e47a820c3df76d6c8bf?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</a>
+				</span>
+			<span>
+				<a href=""><img class="lazy" src="http://img.reflower.com.cn/ea04019fe09426124b837d412b7ce887351ab0ca?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/ea04019fe09426124b837d412b7ce887351ab0ca?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+				</a>
+			</span>
+		</div>
+	</div>
+	<div class="line"><span></span></div>
+	<!-- 为您精选 -->
+	<div class="selected">
+		<div class="head_font content">
+			<p>为您精选</p>
+		</div>
+		<div class="sub_head content ">
+			<h3 class="sub_title1">小巧精致</h3>
+			<h3 class="sub_title2">省心省力的暖心花瓶</h3>
+		</div>
+		<div class="se_box content">
+			<div class="se_boxa">
+				<a href="">
+					<span class="icon"></span>
+					<div class="se_img">
+						<img class="lazy" src="http://img.reflower.com.cn/7a7a6d8df21e1d7654fa8fabdc6d96f92a9fca82?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/7a7a6d8df21e1d7654fa8fabdc6d96f92a9fca82?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+					</div>
+					<h3 class='naa_mame'>暖心桌花 |「小花杯」</h3>
+					<p class="naa_p1">省心省力无负担</p>
+					<p class='naa_p12'>39元</p>
+				</a>
+			</div>
+			<div class="se_boxa">
+				<a href="">
+					<span class="icon"></span>
+					<div class="se_img">
+						<img class="lazy" src="http://img.reflower.com.cn/09a30b2fc9bb4dc5ea3d5a52fd755976e4411a28?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/09a30b2fc9bb4dc5ea3d5a52fd755976e4411a28?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+					</div>
+					<h3 class='naa_mame'>Smart 系列 | Pro版</h3>
+					<p class="naa_p1">新用户赠2只新款花器</p>
+					<p class='naa_p12'>69元/周/2束</p>
+				</a>
+			</div>
+		</div>
+		<div class="sub_head content ">
+			<h3 class="sub_title1">新品推荐</h3>
+			<h3 class="sub_title2">限时上线，低价尝鲜体验</h3>
+		</div>
+		<div class="se_box content">
+			<div class="se_boxa">
+				<a href="">
+					<span class="icon"><img src="https://misc.reflower.com.cn/images/cms/new.png"></span>
+					<div class="se_img">
+						<img class="lazy" src="https://img.reflower.com.cn/b9752d236f9523da6f8f4010c7f9ed5dbb4a4fd9?imageView2/2/w/750/h/750/q/100" data-original="https://img.reflower.com.cn/b9752d236f9523da6f8f4010c7f9ed5dbb4a4fd9?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+					</div>
+					<h3 class='naa_mame'>法式香调 |「紫罗兰」</h3>
+					<p class="naa_p1">梦幻法式香，花苞锦簇</p>
+					<p class='naa_p12'>29元/束</p>
+				</a>
+			</div>
+			<div class="se_boxa">
+				<a href="">
+					<span class="icon"></span>
+					<div class="se_img">
+						<img class="lazy" src="http://img.reflower.com.cn/f5689a4160384eaf899bd38ba5fabe40eece5326?imageView2/2/w/750/h/750/q/100" data-original="http://img.reflower.com.cn/f5689a4160384eaf899bd38ba5fabe40eece5326?imageView2/2/w/750/h/750/q/100" style="display: inline-block;">
+					</div>
+					<h3 class='naa_mame'>阳光 |「姐妹淘</h3>
+					<p class="naa_p1">轻松打理无负担，随心DIY</p>
+					<p class='naa_p12'>39元=3束+3瓶</p>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="happy content">
+		<p>∙ 一直幸福到底 ∙</p>
+	</div>
+	<div class="gray"></div>
+	<!-- 底部标签栏 -->
+	<div class="foot_nav">
+		<ul>
+			<li><a href="index.html">
+				<div><img src="images/sy.svg" alt=""></div>
+				<p clsaa='nav_p'>首页</p>
+				</a>
+			</li>
+			<li><a href="find.html">
+				<div><img src="images/fx.svg" alt=""></div>
+				<p>发现</p>
+				</a>
+			</li>
+			<li><a href="curing.html">
+				<div><img src="images/yh.svg" alt=""></div>
+				<p>养护</p>
+				</a>
+			</li>
+			<li><a href="my.html">
+				<div><img src="images/my.svg" alt=""></div>
+				<p>我的</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+	
+	<!--<!--js当前时间-->
+	<!--<script>	
+		var Ostate = document.getElementsByClassName('state')[0];
+			function getTime(){
+				var Oday = new Date();
+				var oh = Oday.getHours();
+				var om = Oday.getMinutes();
+				if(oh>12){
+					if(om<10){
+					Ostate.innerHTML='下午'+(oh-12)+':'+'0'+om;
+					}else{
+						Ostate.innerHTML='下午'+(oh-12)+':'+om;
+					}	
+				}else if(oh<=12){
+					if(om<10){
+						Ostate.innerHTML='上午'+oh+':'+'0'+om;
+					}else{
+						Ostate.innerHTML='上午'+oh+':'+om;
+						}	
+					}
+				}
+			getTime();
+		setInterval(getTime,1000)
+
+	</script>-->-->
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="shortcut icon" href="https://misc.reflower.com.cn/images/icon/logo2@3x.png" type="image/png">
+	<title>登录</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+	<link rel="stylesheet" href="css/login.css" />
+	<link rel="stylesheet" href="css/base.css">
+		<script>
+	        var pixelRatio = 1 / window.devicePixelRatio; //还原设备的真实分辨率；
+	        //devicePixelRatio设备的像素比；
+	        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelRatio + ',minimum-scale=' + pixelRatio + ',maximum-scale=' + pixelRatio + '" />');
+	        var html = document.getElementsByTagName('html')[0];
+	        var pageWidth = html.getBoundingClientRect().width;
+	        html.style.fontSize = pageWidth / 10 + "px";
+	   </script>
+</head>
+<body>
+	<!-- 状态栏-->
+	<!--<div class="state"></div>-->
+	<!--背景图-->
+	<div class="img content">
+		<img src="images/logo3.png" alt="" />
+	</div>
+	
+	<!--登录信息-->	
+	<div class="login content">
+		<form action="index.html" method="get" onsubmit="return checkForm()">  <!--表单验证正确才能提交-->
+			<div class="log_box">
+				<span class='ues'>登录名</span>
+				<input type="text"  placeholder="输入用户名" maxlength="11"  class='tel' id='username' onblur="checkName()">
+			</div>
+			<span id="userId"></span>
+			<div class="log_box">
+				<span class='ues'>密码</span>
+				<input type="password"  placeholder="输入密码" / class='tel' id='pwd' onblur="checkPass()">
+			</div>
+			<span id="passId"></span>
+			<input type="submit" value="登录"/ class='sub'>
+		</form>
+	</div>
+	<!--js表单验证-->
+		<script>
+			 //用户名的规则：第一位是字母，只有由数字与字母组成，6位。
+		    function checkName(){
+		       //获取到了用户名的值
+		       var userName = document.getElementById("username").value;
+		       var userSpan = document.getElementById("userId");
+		       var reg = /^[a-z][a-z]{5}$/i;   //第一位是字母，全是字母组成，6位
+		       if(userName==''){
+		       		userSpan.innerHTML="请输入用户名"
+		       }else{
+			       	if(reg.test(userName)){          //test() 方法用于检测一个字符串是否匹配某个模式.
+			           //符合
+			           userSpan.innerHTML="输入正确";
+			           return true;
+			       }else{
+			           //不符合规则
+		               userSpan.innerHTML="输入错误,用户名为6位字母组成哦";
+		               document.getElementById("username").value='';
+			           return false;
+			       }  
+		       }
+		       
+		    }
+		
+		//校验密码  6位
+	    function checkPass(){
+	       var  password  = document.getElementById("pwd").value;
+	        var passSPan = document.getElementById("passId");
+	        var reg = /^\d{6}$/;     //\w----中文 \d----数字 ｛6，｝最少6位  /g表示全局匹配
+	        var passSPan = document.getElementById("passId");
+	        if(password==''){
+	        	passSPan.innerHTML='请输入密码';
+	        }else{
+	           if(reg.test(password)){
+	              //符合规则 
+	              passSPan.innerHTML='输入正确';
+	              return true;
+	           }else{
+	              //不符合规则
+	              passSPan.innerHTML='请输入正确密码，密码由6位数字组成哦';
+	              document.getElementById("pwd").value='';
+	              return false;
+	          	}
+	      	}
+	       }
+	       
+
+		//总体校验表单是否可以提交了 如果返回的true表单才可以提交。上面的表单项必须要每个都填写正确。
+		    function checkForm(){
+		       var userName = checkName();
+		       var pass  = checkPass();
+		       if(userName&&pass){
+		           return true;
+		       }else{
+		           return false;
+		       }	      
+		    }
+		</script>
+
+    	<!--模仿获取 验证码   js-->
+    <!--<script>
+    	var oBut = document.getElementById('but');
+    	var wait = 60;
+    	function time(o){
+    		if(wait == 0){
+    			o.removeAttribute("disabled");	  //disabled 禁止点击等 		
+				o.value="免费获取验证码";
+				wait = 60;
+    		}else {
+				o.setAttribute("disabled", true);
+				o.value="重新发送(" + wait + ")";
+				o.style.color='#999'
+				wait--;
+				setTimeout(function() {
+					time(o)
+				},
+				1000)
+			}
+		}
+    	oBut.onclick=function(){
+    		time(this)
+    	}
+    </script>-->
+    <!--js当前时间-->
+	<!--<script>	
+		var Ostate = document.getElementsByClassName('state')[0];
+			function getTime(){
+				var Oday = new Date();
+				var oh = Oday.getHours();
+				var om = Oday.getMinutes();
+				if(oh>12){
+					if(om<10){
+					Ostate.innerHTML='下午'+(oh-12)+':'+'0'+om;
+					}else{
+						Ostate.innerHTML='下午'+(oh-12)+':'+om;
+					}	
+				}else if(oh<=12){
+					if(om<10){
+						Ostate.innerHTML='上午'+oh+':'+'0'+om;
+					}else{
+						Ostate.innerHTML='上午'+oh+':'+om;
+						}	
+					}
+				}
+		getTime();
+		setInterval(getTime,1000)
+
+	</script>-->
+</body>
+</html>
