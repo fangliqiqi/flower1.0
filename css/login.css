@@ -1,0 +1,71 @@
+@charset "UTF-8";
+body {
+  background: #f7f7f7 !important; }
+
+/*背景图*/
+.content {
+  padding: 0px 0.4rem; }
+
+.img {
+  width: 100%;
+  height: 5.33333rem;
+  padding: 1.2rem 0 0.8rem 0; }
+  .img > img {
+    width: 2.34667rem;
+    display: block;
+    margin: 0px auto; }
+
+/*登录信息*/
+.login {
+  width: 100%;
+  font-size: 0.34667rem; }
+
+.log_box {
+  width: 100%;
+  height: 1.06667rem;
+  line-height: 1.4rem;
+  background: #fff;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.ues {
+  display: inline-block;
+  width: 2rem;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  text-align: center;
+  border-right: 0.02667rem solid #e9e9e9; }
+
+#userId, #passId {
+  display: block;
+  width: 100%;
+  height: 0.66667rem;
+  line-height: 0.66667rem;
+  color: #FC5967;
+  text-align: center; }
+
+.tel {
+  width: 7.17333rem;
+  height: 1.06667rem;
+  padding-left: 0.34667rem;
+  font-size: 0.34667rem;
+  color: #666;
+  border: 0px;
+  outline: none; }
+
+.sub {
+  margin-top: 0.26667rem;
+  width: 100%;
+  height: 1.17333rem;
+  line-height: 1.17333rem;
+  text-align: center;
+  border: 0px;
+  outline: none;
+  background: #cccc99;
+  color: #fff;
+  font-size: 0.37333rem;
+  border-radius: 0.13333rem; }
+
+/*# sourceMappingURL=login.css.map */
